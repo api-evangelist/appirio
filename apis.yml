@@ -1,8 +1,26 @@
 aid: appirio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appirio.png
 name: Appirio
-description: 'Appirio is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: cloud-services. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Appirio is a global cloud services and consulting company founded in 2006 and headquartered
+  in Indianapolis, acquired by Wipro for USD 500 million in 2016 and now operating as "Appirio, a Wipro
+  company." Appirio is a strategic implementation partner for Salesforce, Workday, Google, and Amazon,
+  helping over 3,000 enterprises across healthcare and life sciences, banking, higher education, manufacturing,
+  and retail adopt cloud-based solutions. Its services span Salesforce ecosystem consulting, CRM and platform
+  implementation, cloud application development, and digital transformation. Appirio is a consulting and
+  systems-integration firm rather than an API producer: it does not publish a public developer program,
+  OpenAPI definitions, SDKs, or a developer portal, so this profile carries company identity only and no
+  API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/appirio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,20 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-notes: 'Cloud consulting / systems integrator (Salesforce, Workday, Google, AWS); acquired by Wipro
+  2016. No public API surface. appirio.com no longer serves HTTP/HTTPS; live presence is the Wipro
+  Appirio brand.'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Cloud Services
+- Consulting
+- Systems Integration
+- Salesforce
+- Workday
+- Digital Transformation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/appirio-domain-security.yml
 - type: Website
   url: https://www.wipro.com/
+- type: Newsroom
+  url: https://www.wipro.com/newsroom/press-releases/2016/wipro-to-acquire-appirio--a-global-cloud-services-company/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
