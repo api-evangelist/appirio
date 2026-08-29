@@ -33,6 +33,8 @@ description: 'Appirio is a global cloud services and consulting company founded 
   OpenAPI definitions, SDKs, or a developer portal, so this profile carries company identity only and no
   API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/appirio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
