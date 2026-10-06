@@ -46,7 +46,7 @@ x-notes: 'Cloud consulting / systems integrator (Salesforce, Workday, Google, AW
   Appirio brand.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Cloud Services
@@ -62,6 +62,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.wipro.com/engineering/
+  type: Blog
 - type: DomainSecurity
   url: security/appirio-domain-security.yml
 - type: Website
